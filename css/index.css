@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit&family=Titillium+Web&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Outfit;
+}
+
+body{
+    display: flex;
+    background-color: hsl(212, 45%, 89%);
+    width: 100%;
+    min-height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    background-color: white;
+    width: 340px;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.texto {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.texto h1 {
+    font-size: 26px;
+    width: 300px;
+    margin-bottom: 20px;
+    color: hsl(218, 44%, 22%);
+}
+
+.texto p {
+    font-size: 15px;
+    color:  hsl(220, 15%, 55%);
+}
+
+.imagem img{
+    width: 300px;
+    border-radius: 20px;
+}
